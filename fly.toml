@@ -1,8 +1,9 @@
-# fly.toml file generated for botui on 2023-03-05T17:59:57-05:00
+# fly.toml file generated for sl on 2023-04-07T13:11:57-04:00
 
-app = "botui"
+app = "sl"
 kill_signal = "SIGINT"
 kill_timeout = 5
+primary_region = "ewr"
 processes = []
 
 [build]
@@ -16,7 +17,7 @@ processes = []
 
 [[services]]
   http_checks = []
-  internal_port = 3000
+  internal_port = 8080
   processes = ["app"]
   protocol = "tcp"
   script_checks = []
