@@ -46,6 +46,22 @@ let mardonMeteorTheme = function() {
     return "@import url('/css/themes/meteor.css');"
 }
 
+let HalcyonSunnyTheme = function() {
+    return "@import url('/css/themes/sunny.css');"
+}
+
+let HalcyonInfraredTheme = function() {
+    return "@import url('/css/themes/infrared.css');"
+}
+
+let HalcyonUltravioletTheme = function() {
+    return "@import url('/css/themes/ultraviolet.css');"
+}
+
+let ApathyEpilogueTheme = function() {
+    return "@import url('/css/themes/epilogue.css');"
+}
+
 let customTheme = function() {
     return window.localStorage.getItem("customTheme");
 }
@@ -63,6 +79,10 @@ let themes = {
     "Asu by apathy#3993": apathyAsuTheme,
     "Lotus by Evo": beansssEvoTheme,
     "Meteor by TheMardon#7986": mardonMeteorTheme,
+    "Sunny by Halcyon#2789": HalcyonSunnyTheme,
+    "Infrared by Halcyon#2789": HalcyonInfraredTheme,
+    "Ultraviolet by Halcyon#2789": HalcyonUltravioletTheme,
+    "Epilogue by apathy#3993": ApathyEpilogueTheme,
     "Custom": customTheme
 }
 
