@@ -1,7 +1,7 @@
 // serve this website
 const express = require('express');
 const app = express();
-const port = 8000;
+const port = 8080;
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
